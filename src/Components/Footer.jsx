@@ -1,14 +1,16 @@
 import React from "react";
 import "./Footer.css";
+import logo from "../assets/logo2.svg";
 
 const Footer = () => {
   return (
     <div>
       <footer className="footer-distributed">
         <div className="footer-left">
-          <h3>
-            Company<span>logo</span>
-          </h3>
+          {/* <h3>
+            Daily<span>Walker</span>
+          </h3> */}
+          <img src={logo} style={{ width: "200px" }}></img>
 
           <p className="footer-links">
             <a href="#" className="link-1">
@@ -26,7 +28,7 @@ const Footer = () => {
             <a href="#">Contact</a>
           </p>
 
-          <p className="footer-company-name">Company Name © 2015</p>
+          <p className="footer-company-name">Daily Walker © 2023</p>
         </div>
 
         <div className="footer-center">
@@ -45,7 +47,7 @@ const Footer = () => {
           <div>
             <i className="fa fa-envelope"></i>
             <p>
-              <a href="mailto:support@company.com">support@company.com</a>
+              <a href="mailto:support@company.com">support@dailywalker.com</a>
             </p>
           </div>
         </div>
