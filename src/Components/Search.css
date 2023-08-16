@@ -1,0 +1,17 @@
+.search {
+  width: 60%;
+  height: 40px;
+  border-radius: 16px;
+  border: 0.2px solid grey;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .search {
+    width: 80vw;
+    height: 40px;
+    border-radius: 16px;
+    border: 0.2px solid grey;
+    padding-left: 10px;
+  }
+}

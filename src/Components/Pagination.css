@@ -1,0 +1,36 @@
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: white;
+  justify-content: center;
+  height: 10vh;
+  align-items: center;
+  font-weight: 400;
+}
+.pagination-container button {
+  padding: 10px;
+  border-radius: 16px;
+  border: 1px solid greenyellow;
+}
+.active {
+  background-color: greenyellow;
+  color: white;
+}
+
+.pagination-container button:hover {
+  background-color: #94f306;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .pagination-container {
+    gap: 5px;
+  }
+
+  .pagination-container button {
+    padding: 4px;
+    border-radius: 16px;
+    border: 1px solid greenyellow;
+  }
+}
